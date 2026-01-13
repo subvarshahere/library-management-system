@@ -87,3 +87,4 @@ alter table return_status
 add constraint fk_issued_status
 foreign key (issued_id)
 references issued_status(issued_id);
+
